@@ -2,6 +2,7 @@
 title: Template
 date: 2026-04-07
 tags: ""
+bookHidden: true
 ---
 # Device Name
 
