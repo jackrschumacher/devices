@@ -5,6 +5,23 @@ tags: "laptop"
 
 # LG Gram 17" (2022)
 ## Device information
+
+### General Info
+
+**Acquired:** 1/8/2026
+
+### Hardware installed
+
+**CPU:** Intel Core i7-1360P (12 core- 4P/8E)\ 
+**Motherboard:** LG Electronics 17ZB90R \
+**RAM:** 32 GB LPDDR4 SDRAM \
+**Graphics:** Intel Raptor Lake-PX - Integrated Graphics [LG Electronics] \
+**Storage:** SAMSUNG MZVL41T0HBLB-00B07 \
+**Connectivity:** Intel Wi-Fi 6E AX211 160MHz \
+**Ports:** 2xUSB-A, 2xUSB-C, 1x HDMI, 1x Headphone \
+**OS:** Microsoft Windows 11 Home (x64) Build 22631.5039 (23H2) 
+
+
 ### Overview
 Device information from `fastfetch`
 <details>
@@ -64,3 +81,13 @@ Using geekbench version `6.5.0`
 |        |        |
 
 [Geekbench results link]()
+
+
+## Maintenance
+*
+
+## Issues
+*
+
+## Notes
+* Info from HW Info

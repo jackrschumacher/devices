@@ -3,8 +3,8 @@
 # for maximum cleanups and rebuilds, run where you checked out the repository
 # hugo server --printPathWarnings --disableFastRender --cleanDestinationDir=true --logLevel=debug \
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
-baseURL = 'https://benchmarks.jackrschumacher.com/'
-title = 'Benchmarks'
+baseURL = 'https://devices.jackrschumacher.com/'
+title = 'Devices'
 
 # Book configuration
 disablePathToLower = true
@@ -39,12 +39,12 @@ path = 'github.com/alex-shpak/hugo-book'
 # [[menu.before]]
 [[menu.after]]
   name = 'Benchmarks GitHub'
-  url = 'https://github.com/jackrschumacher/benchmarks'
+  url = 'https://github.com/jackrschumacher/devices'
   weight = 3
-[[menu.after]]
-  name = 'LICENSE'
-  url = 'https://github.com/jackrschumacher/benchmarks/blob/main/LICENSE'
-  weight = 4
+# [[menu.after]]
+#   name = 'LICENSE'
+#   url = 'https://github.com/jackrschumacher/devices/blob/main/LICENSE'
+#   weight = 4
 
 
 
@@ -73,7 +73,7 @@ path = 'github.com/alex-shpak/hugo-book'
 
   # Here for backward compatibility, not required.
   # It's here as an example how to use it with BookLastChangeLink or BookEditLink
-  BookRepo = 'https://github.com/jackrschumacher/benchmarks'
+  BookRepo = 'https://github.com/jackrschumacher/devices'
 
   # (Optional, default none) Set template for commit link for the page. Requires enableGitInfo.
   # When set enabled 'Last Modified' and a link to the commit in the footer of the page.

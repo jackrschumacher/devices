@@ -6,6 +6,19 @@ tags: "sbc"
 # Raspberry Pi 5 (8 GB)
 
 ## Device information
+
+### General Info
+**Acquired:** 5/8/24
+### Hardware installed
+**Motherboard:** Custom (Raspberry Pi 5) \
+**RAM:** 8 GB LPDDR4X-4267 SDRAM \
+**Graphics:** VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2\
+**Storage:** 128 GB SanDisk SD Card \
+**Connectivity:** Dual-band 802.11ac Wi-Fi/Bluetooth 5.0 / Bluetooth Low Energy/Gigabit Ethernet, with PoE+ support (requires separate PoE+ HAT) \
+**Ports:** 2xUSB 3.0, 2xUSB 2.0, 2x4-lane MPI Camera input/  PCIe 2.0 x1 interface for fast peripherals (requires separate M.2 HAT or other adapter)
+**OS:** Ubuntu 22.04
+**Case:** [GeeekPi Case with Armor Lite V5](https://www.amazon.com/dp/B0CP5GK71T?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+
 ### Overview
 Device information from `fastfetch`
 <details>
@@ -249,3 +262,17 @@ Using Geekbench version `6.5.0`
 |     778     |    1521    |
 
 [Geekbench result link](https://browser.geekbench.com/v6/cpu/17518997)
+
+
+## Maintenance
+
+* (4/2/2026) Installed [GeeekPi Case with Armor Lite V5](https://www.amazon.com/dp/B0CP5GK71T?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+* (7/2025) Installed Ubuntu 24 LTS
+* (10/24) Installed Ubuntu 22.04
+* (5/8/24) Installed Kali (version unknown)
+
+## Issues
+*
+
+## Notes
+* [Product Page](https://www.raspberrypi.com/products/raspberry-pi-5/)

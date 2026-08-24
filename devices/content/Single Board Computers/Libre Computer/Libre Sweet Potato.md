@@ -6,7 +6,23 @@ tags: "sbc"
 # Libre Sweet Potato (AML-S905X-CC)
 
 ## Device information
+
+### General Info
+
+**Acquired:** [4/1/2025] 
+
+### Hardware installed
+
+**Motherboard:** Manufacturer \
+**RAM:** 2GB 32-bit DDR4 SDRAM \
+**Graphics:** 2G + 3P ARM Mali-450 @ 750MHz \
+**Storage:** 64 GB SD Card \
+**Connectivity:** 100 Mb Fast Ethernet with Optional Power-over-Ethernet Support \
+**Ports:** 3 x USB 2.0 Type-A Ports via Hub, 1 x USB 2.0 Type-A Dual Role Port, HDMI 2.0 with 4K HDR support, 100 Mb Fast Ethernet, eMMC 5.x SM Interface for Libre Computer Modules, Multi-Protocol IR Receiver with System Wake Support, GPIO\
+**OS:** Ubuntu 22.04.5 LTS (Jammy Jellyfish)
+**Case:** [Love RPi Active Cooling Case ](https://www.amazon.com/LoveRPi-Active-Cooling-Computer-Solitude/dp/B0CG9Y3VS4/ref=sr_1_1?crid=2L95OW2SECM2D&dib=eyJ2IjoiMSJ9.hVWOlF6abyMqiH7U3H8JEQ.qL0LJvQS3MA0_A4oYpi2MBx-dLUjDR2toT6dbYwyjf0&dib_tag=se&keywords=libre+sweet+potato+case&qid=1774971830&sprefix=libre+sweet+pot%2Caps%2C234&sr=8-1)
 Device information from `fastfetch`
+
 <details>
 <summary>View device information</summary>
 
@@ -128,3 +144,16 @@ After at 47.0°C:
 > [!WARNING]
 >
 > Test failed to complete (timeout)
+
+
+## Maintenance
+
+*
+
+## Issues
+
+*
+
+## Notes
+
+* [Official Site](https://libre.computer/products/aml-s905x-cc-v2/)
