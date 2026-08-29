@@ -38,7 +38,7 @@ path = 'github.com/alex-shpak/hugo-book'
 
 # [[menu.before]]
 [[menu.after]]
-  name = 'Benchmarks GitHub'
+  name = 'Devices GitHub'
   url = 'https://github.com/jackrschumacher/devices'
   weight = 3
 [[menu.after]]
