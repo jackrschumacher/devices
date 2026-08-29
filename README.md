@@ -1,6 +1,5 @@
 # benchmarks
-[![Hugo Version](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fbenchmarks%2Fmain%2Fbenchmarks%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo)](https://github.com/jackrschumacher/benchmarks)
-
+[![Hugo Version](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fdevices%2Fmain%2Fdevices%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo)](https://github.com/jackrschumacher/benchmarks)
 
 ## Running benchmarks
 
@@ -22,5 +21,5 @@ cd Geekbench-7.0.0-Linux
 ./geekbench7 --compute #Run GPU benchmark
 ./geekbench7 --compute-list #Check available compute APIs
 ./geekbench7 --compute OpenCL #Run OpenCL
-./geekbench7 --compute Vulkan #
+./geekbench7 --compute Vulkan #Run Vulkan
 ```
