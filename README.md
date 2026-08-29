@@ -11,3 +11,16 @@
 sudo /bin/bash ./sbc-bench.sh -r | tee benchmark_results.txt
 ```
 
+### Geekbench 6
+On Linux:
+```shell
+wget https://cdn.geekbench.com/Geekbench-7.0.0-Linux.tar.gz
+tar -xzvf Geekbench-7.0.0-Linux.tar.gz
+cd Geekbench-7.0.0-Linux
+./geekbench7 #Run just the CPU benchmark
+./geekbench7 --cpu #Specifically run just the CPU benchmark
+./geekbench7 --compute #Run GPU benchmark
+./geekbench7 --compute-list #Check available compute APIs
+./geekbench7 --compute OpenCL #Run OpenCL
+./geekbench7 --compute Vulkan #
+```

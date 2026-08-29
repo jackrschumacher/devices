@@ -47,12 +47,24 @@ Device information from `fastfetch`
 ```
 </details>
 
-## Geekbench 6
-Using Geekbench version `6.5.0`
+## Geekbench 7
+Using Geekbench version `7.0.0`
+
+### CPU
 
 | Single Core | Multi-Core |
 | :---------: | :--------: |
 |        |      |
+
+[Geekbench CPU result link]()
+
+### GPU
+
+| Backend API | Compute Score |
+| :---------: | :--------: |
+|        |  |
+
+[Geekbench GPU result link]()
 
 ## Maintenance
 
