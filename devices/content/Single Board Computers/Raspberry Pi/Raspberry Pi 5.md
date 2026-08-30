@@ -253,6 +253,17 @@ After at 68.8°C:
 ```
 </details>
 
+## Geekbench 7
+Using Geekbench version `7.0.0-LinuxARMPreview`
+
+### CPU
+
+| Single Core | Multi-Core |
+| :---------: | :--------: |
+|     698     |    1484    |
+
+[Geekbench CPU result link](https://browser.geekbench.com/v7/cpu/234986)
+
 ## Geekbench 6
 
 Using Geekbench version `6.5.0`
@@ -261,7 +272,7 @@ Using Geekbench version `6.5.0`
 | :---------: | :--------: |
 |     778     |    1521    |
 
-[Geekbench result link](https://browser.geekbench.com/v6/cpu/17518997)
+[Geekbench CPU result link](https://browser.geekbench.com/v6/cpu/17518997)
 
 
 ## Maintenance

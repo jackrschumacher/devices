@@ -10,12 +10,18 @@
 sudo /bin/bash ./sbc-bench.sh -r | tee benchmark_results.txt
 ```
 
-### Geekbench 6
+### Geekbench 
 On Linux:
 ```shell
+# For x86
 wget https://cdn.geekbench.com/Geekbench-7.0.0-Linux.tar.gz
 tar -xzvf Geekbench-7.0.0-Linux.tar.gz
 cd Geekbench-7.0.0-Linux
+# For ARM
+wget https://cdn.geekbench.com/Geekbench-7.0.0-LinuxARMPreview.tar.gz
+tar -xf Geekbench-7.0.0-LinuxARMPreview.tar.gz
+cd Geekbench-7.0.0-LinuxARMPreview
+
 ./geekbench7 #Run just the CPU benchmark
 ./geekbench7 --cpu #Specifically run just the CPU benchmark
 ./geekbench7 --compute #Run GPU benchmark
