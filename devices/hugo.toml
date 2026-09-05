@@ -97,10 +97,10 @@ path = 'github.com/alex-shpak/hugo-book'
   BookSearch = true
 
   # (Optional, default true) Enables comments template on pages
-  # By default partials/docs/comments.html includes Disqus template
-  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # layouts/_partials/docs/comments.html overrides the theme's Disqus default
+  # with giscus, configured in [params.giscus] below.
   # Can be overwritten by same param in page frontmatter
-  BookComments = false
+  BookComments = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
@@ -118,3 +118,17 @@ path = 'github.com/alex-shpak/hugo-book'
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly = false
+
+# Giscus comments (GitHub Discussions). Requires BookComments = true.
+# Get repoId and categoryId from https://giscus.app after installing the
+# giscus GitHub App on the repo and enabling Discussions.
+[params.giscus]
+  repo = 'jackrschumacher/devices'
+  repoId = 'R_kgDOR8SNxw'
+  category = 'Site comments'
+  categoryId = 'DIC_kwDOR8SNx84DE9ap'
+  reactionsEnabled = '0'
+  # mapping = 'pathname'      # pathname | url | title | og:title | specific | number
+  # inputPosition = 'bottom'  # bottom | top
+  # lang = 'en'
+  # theme = ''                # defaults to follow BookTheme; any giscus theme name works
