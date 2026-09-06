@@ -3,7 +3,7 @@ title: "Dell Optiplex 7060 Micro"
 tags: "Desktop"
 ---
 
-# Device Name
+# Dell Optiplex 7060 Micro
 
 ## Device information
 
