@@ -11,6 +11,7 @@ tags: "sbc"
 **Acquired:** 5/8/24
 ### Hardware installed
 **Motherboard:** Custom (Raspberry Pi 5) \
+**CPU:** BroadcomBCM2712 \
 **RAM:** 8 GB LPDDR4X-4267 SDRAM \
 **Graphics:** VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2\
 **Storage:** 128 GB SanDisk SD Card \

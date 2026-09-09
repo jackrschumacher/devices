@@ -12,8 +12,8 @@ tags: "laptop"
 
 ### Hardware installed
 
-**CPU:** Intel Core i7-1360P (12 core- 4P/8E) \
 **Motherboard:** LG Electronics 17ZB90R \
+**CPU:** Intel Core i7-1360P (12 core- 4P/8E) \
 **RAM:** 32 GB LPDDR4 SDRAM \
 **Graphics:** Intel Raptor Lake-PX - Integrated Graphics [LG Electronics] \
 **Storage:** SAMSUNG MZVL41T0HBLB-00B07 1TB \

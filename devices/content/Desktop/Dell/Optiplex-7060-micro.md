@@ -12,6 +12,7 @@ tags: "Desktop"
 
 ### Hardware installed
 **Motherboard:** Dell Inc. 0KYJ8C \
+**CPU:** Intel i5-8500T \
 **RAM:** 16 GB SODIMM, 2666 MT/S \
 **Graphics:** CoffeeLake-S GT2 [UHD Graphics 630] \
 **Storage:** Kingston NV3 500GB M.2 2280 NVMe SSD PCIe Gen 4, 256 GB BTO SATA SSD \

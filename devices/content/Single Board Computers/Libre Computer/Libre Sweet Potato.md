@@ -14,6 +14,7 @@ tags: "sbc"
 ### Hardware installed
 
 **Motherboard:** Manufacturer \
+**CPU:** Amlogic S905X \
 **RAM:** 2GB 32-bit DDR4 SDRAM \
 **Graphics:** 2G + 3P ARM Mali-450 @ 750MHz \
 **Storage:** 64 GB SD Card \

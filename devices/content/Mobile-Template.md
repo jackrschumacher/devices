@@ -1,9 +1,10 @@
 ---
-title: Template
+title: Mobile Template
 date: 2026-04-07
 tags: ""
 bookHidden: true
 ---
+
 # Device Name
 
 ## Device information
@@ -15,6 +16,7 @@ bookHidden: true
 ### Hardware installed
 
 **Motherboard:** Manufacturer \
+**CPU:**
 **RAM:**  \
 **Graphics:**  \
 **Storage:**  \
@@ -22,30 +24,6 @@ bookHidden: true
 **Ports:** \
 **OS:** 
 **Case:** 
-
-### Overview
-Device information from `fastfetch`
-
-<details>
-<summary>View device information</summary>
-
-```
-
-
-```
-</details>
-
-
-
-## sbc-bench
-
-<details>
-<summary>Results</summary>
-
-```
-
-```
-</details>
 
 ## Geekbench 7
 Using Geekbench version `7.0.0`

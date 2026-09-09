@@ -10,6 +10,7 @@ tags: "laptop"
 **Acquired:** 11/30/2024 
 ### Hardware installed
 **Motherboard:** Unknown \
+**CPU:** \
 **RAM:** 8 GB PC3-12800 1600MHz DDR3, non-parity,
 dual-channel capable, two 204-pin SO-DIMM sockets
 (System automatically clocks down for processors with 1333MHz DDR3 memory controller) \
