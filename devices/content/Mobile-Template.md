@@ -11,7 +11,7 @@ bookHidden: true
 
 ### General Info
 
-**Acquired:** 
+**Acquired:** 10/20/2022
 
 ### Hardware installed
 
