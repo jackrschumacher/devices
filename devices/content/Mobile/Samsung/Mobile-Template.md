@@ -15,9 +15,9 @@ bookHidden: true
 
 ### Hardware installed
 
-**Motherboard:** Manufacturer \
-**CPU:** \
-**RAM:**  \
+**Motherboard:** Custom Samsung designed motherboard \
+**CPU:** Exynos 1380 \
+**RAM:**  6 GB RAM\
 **Graphics:**  \
 **Storage:**  \
 **Connectivity:**  \
