@@ -1,8 +1,8 @@
 ---
 title: iPad Air 5th Generation (2022)
 date: 2026-04-07
-tags: ""
-bookHidden: true
+tags: "tablet"
+bookHidden: false
 ---
 
 # iPad Air 5th Generation (2022)
@@ -22,8 +22,9 @@ bookHidden: true
 **Storage:**  64 GB \
 **Connectivity:** Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot, Bluetooth 5.0, GPS \
 **Ports:** USB Type-C 3.1 Gen2, Keyboard connector\
+**Camera(s):** 12 MP Main, 12 MP Selfie\
 **OS:** iPad OS 26
-**Case:** [JETech Case for iPad Air 11" M4/M3/M2 & iPad Air 5/4 10.9", Black](https://www.amazon.com/dp/B09V86CN7H?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_9&th=1) 
+
 
 ## Geekbench 7
 Using Geekbench version `7.0.0`

@@ -22,8 +22,9 @@ bookHidden: true
 **Storage:**  \
 **Connectivity:**  \
 **Ports:** \
+**Camera(s):** \
 **OS:** 
-**Case:** 
+
 
 ## Geekbench 7
 Using Geekbench version `7.0.0`
