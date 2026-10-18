@@ -13,7 +13,7 @@ tags: "Desktop"
 ### Hardware installed
 **Motherboard:** Dell Inc. 0KYJ8C \
 **CPU:** Intel i5-8500T \
-**RAM:** 16 GB SODIMM, 2666 MT/S \
+**RAM:** 32 GB SODIMM, 2666 MT/S (16GB 3200 MT/S, 16GB 2666 MT/S) \
 **Graphics:** CoffeeLake-S GT2 [UHD Graphics 630] \
 **Storage:** Kingston NV3 500GB M.2 2280 NVMe SSD PCIe Gen 4, 256 GB BTO SATA SSD \
 **Connectivity:** Intel Corporation Ethernet Connection (7) I219-LM (rev 10), Intel Corporation Cannon Lake PCH CNVi WiFi (rev 10) \
@@ -29,29 +29,34 @@ Device information from `fastfetch`
 ```
                              ....              jackr@jackr-Optiplex-7060
               .',:clooo:  .:looooo:.           -------------------------
-           .;looooooooc  .oooooooooo'          OS: Ubuntu 26.04 LTS (Resolute Raccoon) x86_64
+           .;looooooooc  .oooooooooo'          OS: Ubuntu 26.04.1 LTS (Resolute Raccoon) x86_64
         .;looooool:,''.  :ooooooooooc          Host: OptiPlex 7060
-       ;looool;.         'oooooooooo,          Kernel: Linux 7.0.0-30-generic
-      ;clool'             .cooooooc.  ,,       Uptime: 6 hours, 39 mins
-         ...                ......  .:oo,      Packages: 2169 (dpkg), 22 (snap)
+       ;looool;.         'oooooooooo,          Kernel: Linux 7.0.0-38-generic
+      ;clool'             .cooooooc.  ,,       Uptime: 2 days, 3 hours, 46 mins
+         ...                ......  .:oo,      Packages: 2241 (dpkg), 7 (flatpak), 22 (snap)
   .;clol:,.                        .loooo'     Shell: bash 5.3.9
- :ooooooooo,                        'ooool     Terminal: /dev/pts/1 10.2p1 Ubuntu-2ubuntu3.5
+ :ooooooooo,                        'ooool     Terminal: /dev/pts/0 10.2p1 Ubuntu-2ubuntu3.8
 'ooooooooooo.                        loooo.    CPU: Intel(R) Core(TM) i5-8500T (6) @ 3.50 GHz
 'ooooooooool                         coooo.    GPU: Intel UHD Graphics 630 @ 1.10 GHz [Integrated]
- ,loooooooc.                        .loooo.    Memory: 1.22 GiB / 14.91 GiB (8%)
+ ,loooooooc.                        .loooo.    Memory: 1.39 GiB / 30.64 GiB (5%)
    .,;;;'.                          ;ooooc     Swap: 0 B / 4.00 GiB (0%)
-       ...                         ,ooool.     Disk (/): 25.43 GiB / 456.35 GiB (6%) - ext4
-    .cooooc.              ..',,'.  .cooo.      Disk (/mnt/storage): 1.52 GiB / 233.67 GiB (1%) - ext4
+       ...                         ,ooool.     Disk (/): 47.01 GiB / 456.35 GiB (10%) - ext4
+    .cooooc.              ..',,'.  .cooo.      Disk (/mnt/storage): 6.47 GiB / 233.67 GiB (3%) - ext4
       ;ooooo:.           ;oooooooc.  :l.       Local IP (eno2): 146.229.244.147/21
        .coooooc,..      coooooooooo.           Locale: en_US.UTF-8
          .:ooooooolc:. .ooooooooooo'
            .':loooooo;  ,oooooooooc
                ..';::c'  .;loooo:'
 
-
 ```
 </details>
 
+### System Topography
+Generated with `lstopo`
+<details>
+<summary>View device information</summary>
+<img src="/images/optiplex-7060-micro.png" alt="Name" />
+</details>
 
 
 ## sbc-bench
