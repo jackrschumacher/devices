@@ -160,7 +160,7 @@ After at 70.0Â°C:
 </details>
 
 ## Geekbench 7
-Using Geekbench version `7.0.0`
+Using Geekbench version `7.1.0`
 
 ### CPU
 
