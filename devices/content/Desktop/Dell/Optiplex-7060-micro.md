@@ -62,7 +62,111 @@ Generated with `lstopo`
 ## sbc-bench
 
 <details>
-<summary>Results</summary>
+<summary>Dual-Channel memory results</summary>
+```
+# Dell Inc. OptiPlex 7060  / i5-8500T @ 2.10GHz
+
+Tested with sbc-bench v0.9.72 on Thu, 05 Nov 2026 00:35:23 -0600.
+
+### General information:
+
+    Information courtesy of cpufetch:
+    
+    Name:                Intel Core i5-8500T
+    Microarchitecture:   Coffee Lake
+    Technology:          14nm
+    Max Frequency:       3.500 GHz
+    Cores:               6 cores
+    AVX:                 AVX,AVX2
+    FMA:                 FMA3
+    L1i Size:            32KB (192KB Total)
+    L1d Size:            32KB (192KB Total)
+    L2 Size:             256KB (1.5MB Total)
+    L3 Size:             9MB
+    
+    i5-8500T @ 2.10GHz, Kernel: x86_64, Userland: amd64
+    
+    CPU sysfs topology (clusters, cpufreq members, clockspeeds)
+                     cpufreq   min    max
+     CPU    cluster  policy   speed  speed   core type
+      0        0        0      800    3500   Coffee Lake
+      1        0        1      800    3500   Coffee Lake
+      2        0        2      800    3500   Coffee Lake
+      3        0        3      800    3500   Coffee Lake
+      4        0        4      800    3500   Coffee Lake
+      5        0        5      800    3500   Coffee Lake
+
+31375 KB available RAM
+
+### Policies (performance vs. idle consumption):
+
+Status of performance related policies found below /sys:
+
+    /sys/module/pcie_aspm/parameters/policy: [default] performance powersave powersupersave
+
+### Clockspeeds (idle vs. heated up):
+
+Before at 45.0Â°C:
+
+    cpu0: OPP: 3500, Measured: 3460      (-1.1%)
+
+After at 67.0Â°C:
+
+    cpu0: OPP: 3500, Measured: 3467 
+
+### Performance baseline
+
+  * memcpy: 14570.5 MB/s, memchr: 21488.6 MB/s, memset: 36932.1 MB/s
+  * 16M latency: 55.98 52.66 54.09 52.19 53.29 58.38 64.94 60.16 
+  * 128M latency: 83.38 80.76 81.21 79.63 80.63 80.55 82.33 83.89 
+  * 7-zip MIPS (3 consecutive runs): 19970, 20363, 20197 (20180 avg), single-threaded: 3789
+  * `aes-256-cbc     690140.76k   923340.61k   931948.97k   938481.66k   939013.46k   939775.32k`
+  * `aes-256-cbc     707178.56k   918146.77k   935679.57k   937556.99k   940378.79k   947541.33k`
+
+### PCIe and storage devices:
+
+  * Intel CoffeeLake-S GT2 [UHD Graphics 630] (Onboard - Video): driver in use: i915
+  * Intel 300/C240 Series Chipset Family USB 3.1 xHCI (Onboard - Other): driver in use: xhci_hcd
+  * Intel 300/C240 Series Chipset Family CNVi Wi-Fi (Onboard - Ethernet): driver in use: iwlwifi
+  * Intel 300/C240 Series Chipset Family Keyboard and Text (KT) Redirection (Onboard - Other): driver in use: serial
+  * Intel 300/C240 Series Chipset Family SATA (AHCI) (Onboard - SATA): driver in use: ahci
+  * Intel Ethernet Connection (7) I219-LM (Onboard - Ethernet): driver in use: e1000e
+  * 465.8GB "KINGSTON SNV3S500G" SSD as /dev/nvme0: Speed 8GT/s (downgraded), Width x4, 0% worn out, drive temp: 34Â°C, ASPM L1 Enabled; RCB 64 bytes, LnkDisable- CommClk+ PCI-PM_L1.2- PCI-PM_L1.1- ASPM_L1.2- ASPM_L1.1- L1_PM_Substates-  PCI-PM_L1.2- PCI-PM_L1.1- ASPM_L1.2- ASPM_L1.1-  
+  * 238.5GB "SSD 256GB" SSD as /dev/sda: SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s), 0% worn out, drive temp: 40Â°C
+  * Gigadevice GD25Q256 32MB SPI NOR flash, drivers in use: spi-nor/intel-spi
+
+### Swap configuration:
+
+  * /swap.img on /dev/nvme0n1p2: 4.0G (636K used)
+
+### Software versions:
+
+  * Ubuntu 26.04.1 LTS (resolute)
+  * Compiler: /usr/bin/gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0 / x86_64-linux-gnu
+  * OpenSSL 3.5.5, built on 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)    
+
+### Kernel info:
+
+  * `/proc/cmdline: BOOT_IMAGE=/boot/vmlinuz-7.0.0-42-generic root=UUID=70814f1e-575b-4530-b9a5-e83f78c51dc7 ro quiet splash drm_kms_helper.poll=0 crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M`
+  * Vulnerability Gather data sampling:      Vulnerable
+  * Vulnerability Itlb multihit:             KVM: Mitigation: Split huge pages
+  * Vulnerability L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT disabled
+  * Vulnerability Mds:                       Mitigation; Clear CPU buffers; SMT disabled
+  * Vulnerability Meltdown:                  Mitigation; PTI
+  * Vulnerability Mmio stale data:           Mitigation; Clear CPU buffers; SMT disabled
+  * Vulnerability Retbleed:                  Mitigation; IBRS
+  * Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+  * Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  * Vulnerability Srbds:                     Mitigation; Microcode
+  * Vulnerability Tsx async abort:           Mitigation; TSX disabled
+  * Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+  * Kernel 7.0.0-42-generic / CONFIG_HZ=1000
+
+```
+
+</details>
+<details>
+<summary>Single channel Memory Results</summary>
 
 ```
 # Dell Inc. OptiPlex 7060  / i5-8500T @ 2.10GHz
@@ -165,10 +269,34 @@ After at 65.0°C:
 ```
 </details>
 
-## Geekbench 7
+## Geekbench 7 
+
+### Dual Channel Memory (32 GB)
+
+#### CPU
+
+Using Geekbench version `7.1.0`
+
+| Single Core | Multi-Core |
+| :---------: | :--------: |
+|    1246     |    5174    |
+
+[Geekbench CPU result link](https://browser.geekbench.com/v7/cpu/805498)
+
+#### GPU
+
+#### GPU
+
+| Backend API |                    Compute Score                    |
+| :---------: | :-------------------------------------------------: |
+|   OpenCL    | [4741](https://browser.geekbench.com/v7/gpu/364556) |
+|   Vulkan    | [4347](https://browser.geekbench.com/v7/gpu/364575) |
+
+### Single Channel Memory (16GB)
+
 Using Geekbench version `7.0.0`
 
-### CPU
+#### CPU
 
 | Single Core | Multi-Core |
 | :---------: | :--------: |
@@ -176,7 +304,7 @@ Using Geekbench version `7.0.0`
 
 [Geekbench CPU result link](https://browser.geekbench.com/v7/cpu/233506)
 
-### GPU
+#### GPU
 
 | Backend API | Compute Score |
 | :---------: | :--------: |
@@ -187,8 +315,9 @@ Using Geekbench version `7.0.0`
 
 ## Maintenance
 
-* (8/18) Installed Kingston NV3 500GB M.2 2280 NVMe SSD
-* (8/20) Installed [copper heatsink](https://www.amazon.com/dp/B0CWNLNQY1?ref=ppx_yo2ov_dt_b_fed_asin_title) for NVMe drive
+* (8/18/2026) Installed Kingston NV3 500GB M.2 2280 NVMe SSD
+* (8/20/2026) Installed [copper heatsink](https://www.amazon.com/dp/B0CWNLNQY1?ref=ppx_yo2ov_dt_b_fed_asin_title) for NVMe drive
+* (10/14/2026) Installed Samsung 16GB DDR4 3200MHz PC4-3200AA 1Rx8 SODIMM
 
 ## Issues
 

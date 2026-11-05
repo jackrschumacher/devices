@@ -7,6 +7,7 @@
 
 ```shell
 # Run the script and write to a file while also displaying on screen
+wget https://raw.githubusercontent.com/ThomasKaiser/sbc-bench/master/sbc-bench.sh
 sudo /bin/bash ./sbc-bench.sh -r | tee benchmark_results.txt
 ```
 
