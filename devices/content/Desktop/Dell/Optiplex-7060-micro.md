@@ -63,6 +63,7 @@ Generated with `lstopo`
 
 <details>
 <summary>Dual-Channel memory results</summary>
+
 ```
 # Dell Inc. OptiPlex 7060  / i5-8500T @ 2.10GHz
 
