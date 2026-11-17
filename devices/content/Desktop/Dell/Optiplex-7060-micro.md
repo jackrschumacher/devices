@@ -1,5 +1,5 @@
 ---
-title: "Dell Optiplex 7060 Micro"
+title: "Optiplex 7060 Micro"
 tags: "Desktop"
 ---
 
@@ -27,27 +27,26 @@ Device information from `fastfetch`
 <summary>View device information</summary>
 
 ```
-                             ....              jackr@jackr-Optiplex-7060
-              .',:clooo:  .:looooo:.           -------------------------
+                             ....              jackr@saturn
+              .',:clooo:  .:looooo:.           ------------
            .;looooooooc  .oooooooooo'          OS: Ubuntu 26.04.1 LTS (Resolute Raccoon) x86_64
         .;looooool:,''.  :ooooooooooc          Host: OptiPlex 7060
-       ;looool;.         'oooooooooo,          Kernel: Linux 7.0.0-38-generic
-      ;clool'             .cooooooc.  ,,       Uptime: 2 days, 3 hours, 46 mins
-         ...                ......  .:oo,      Packages: 2241 (dpkg), 7 (flatpak), 22 (snap)
+       ;looool;.         'oooooooooo,          Kernel: Linux 7.0.0-43-generic
+      ;clool'             .cooooooc.  ,,       Uptime: 3 days, 12 hours, 45 mins
+         ...                ......  .:oo,      Packages: 2280 (dpkg), 7 (flatpak), 21 (snap)
   .;clol:,.                        .loooo'     Shell: bash 5.3.9
- :ooooooooo,                        'ooool     Terminal: /dev/pts/0 10.2p1 Ubuntu-2ubuntu3.8
+ :ooooooooo,                        'ooool     Terminal: tmux 3.6
 'ooooooooooo.                        loooo.    CPU: Intel(R) Core(TM) i5-8500T (6) @ 3.50 GHz
 'ooooooooool                         coooo.    GPU: Intel UHD Graphics 630 @ 1.10 GHz [Integrated]
- ,loooooooc.                        .loooo.    Memory: 1.39 GiB / 30.64 GiB (5%)
+ ,loooooooc.                        .loooo.    Memory: 2.29 GiB / 30.64 GiB (7%)
    .,;;;'.                          ;ooooc     Swap: 0 B / 4.00 GiB (0%)
-       ...                         ,ooool.     Disk (/): 47.01 GiB / 456.35 GiB (10%) - ext4
-    .cooooc.              ..',,'.  .cooo.      Disk (/mnt/storage): 6.47 GiB / 233.67 GiB (3%) - ext4
+       ...                         ,ooool.     Disk (/): 62.70 GiB / 456.35 GiB (14%) - ext4
+    .cooooc.              ..',,'.  .cooo.      Disk (/mnt/storage): 2.47 GiB / 233.67 GiB (1%) - ext4
       ;ooooo:.           ;oooooooc.  :l.       Local IP (eno2): 146.229.244.147/21
        .coooooc,..      coooooooooo.           Locale: en_US.UTF-8
          .:ooooooolc:. .ooooooooooo'
            .':loooooo;  ,oooooooooc
                ..';::c'  .;loooo:'
-
 ```
 </details>
 

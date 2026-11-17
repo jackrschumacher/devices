@@ -26,29 +26,26 @@ Device information from `fastfetch`
 <summary>View device information</summary>
 
 ```
-                             ....              jackr@jackr
-              .',:clooo:  .:looooo:.           -----------
-           .;looooooooc  .oooooooooo'          OS: Ubuntu 24.04.4 LTS (Noble Numbat) aarch64
+                             ....              jackr@electron
+              .',:clooo:  .:looooo:.           --------------
+           .;looooooooc  .oooooooooo'          OS: Ubuntu 24.04.5 LTS (Noble Numbat) aarch64
         .;looooool:,''.  :ooooooooooc          Host: Raspberry Pi 5 Model B Rev 1.0
-       ;looool;.         'oooooooooo,          Kernel: Linux 6.8.0-1051-raspi
-      ;clool'             .cooooooc.  ,,       Uptime: 1 hour, 43 mins
-         ...                ......  .:oo,      Packages: 2933 (dpkg), 20 (snap)
+       ;looool;.         'oooooooooo,          Kernel: Linux 6.8.0-1068-raspi
+      ;clool'             .cooooooc.  ,,       Uptime: 1 day, 15 hours, 8 mins
+         ...                ......  .:oo,      Packages: 3074 (dpkg), 17 (snap)
   .;clol:,.                        .loooo'     Shell: bash 5.2.21
- :ooooooooo,                        'ooool     DE: GNOME 46.0
-'ooooooooooo.                        loooo.    WM: Mutter (Wayland)
-'ooooooooool                         coooo.    WM Theme: Yaru-blue-dark
- ,loooooooc.                        .loooo.    Theme: Yaru-blue-dark [GTK2/3/4]
-   .,;;;'.                          ;ooooc     Icons: Yaru-blue [GTK2/3/4]
-       ...                         ,ooool.     Font: Cantarell (11pt) [GTK2/3/4]
-    .cooooc.              ..',,'.  .cooo.      Cursor: Adwaita (24px)
-      ;ooooo:.           ;oooooooc.  :l.       Terminal: /dev/pts/0
-       .coooooc,..      coooooooooo.           CPU: BCM2712 (4) @ 2.40 GHz
-         .:ooooooolc:. .ooooooooooo'           GPU: Broadcom bcm2712-vc6 [Integrated]
-           .':loooooo;  ,oooooooooc            Memory: 1.02 GiB / 7.75 GiB (13%)
-               ..';::c'  .;loooo:'             Swap: 0 B / 1024.00 MiB (0%)
-                                               Disk (/): 47.13 GiB / 116.62 GiB (40%) - ext4
-                                               Local IP (eth0): 146.229.245.131/21
-                                               Locale: en_US.UTF-8
+ :ooooooooo,                        'ooool     Terminal: tmux 3.4
+'ooooooooooo.                        loooo.    CPU: BCM2712 (4) @ 2.40 GHz
+'ooooooooool                         coooo.    GPU: Broadcom bcm2712-vc6 [Integrated]
+ ,loooooooc.                        .loooo.    Memory: 1020.52 MiB / 7.75 GiB (13%)
+   .,;;;'.                          ;ooooc     Swap: 0 B / 1024.00 MiB (0%)
+       ...                         ,ooool.     Disk (/): 42.98 GiB / 116.62 GiB (37%) - ext4
+    .cooooc.              ..',,'.  .cooo.      Local IP (eth0): 146.229.245.131/21
+      ;ooooo:.           ;oooooooc.  :l.       Locale: en_US.UTF-8
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
 ```
 </details>
 

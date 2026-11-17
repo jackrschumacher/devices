@@ -1,7 +1,7 @@
 ---
-title: "Apple Mac Mini 2014"
+title: "Mac Mini (2014)"
 tags: ""
-bookHidden: true
+bookHidden: false
 ---
 
 # Apple Mac Mini 2014 
@@ -10,18 +10,18 @@ bookHidden: true
 
 ### General Info
 
-**Acquired:** 
+**Acquired:** 10/24/2026
 
 ### Hardware installed
 
 **Motherboard:** Manufacturer \
-**CPU:**
-**RAM:**  \
-**Graphics:**  \
-**Storage:**  \
-**Connectivity:**  \
-**Ports:** \
-**OS:** 
+**CPU:** 2.6GHz Intel i5-4278u (Dual-Core, Turbo Boost up to 3.1GHz) with 3MB on-chip shared L3 cache \
+**RAM:** 8GB of 1600MHz LPDDR3 memory (Non-upgradeable) \
+**Graphics:** Intel Iris Graphics \
+**Storage:** 256 GB Apple Proprietary SSD \
+**Connectivity:** 802.11ac Wi-Fi wireless networking; IEEE 802.11a/g/b/n compatible, Bluetooth 4.0, 10/100/1000BASE-T Ethernet (RJ-45 connector) \
+**Ports:** 2x Thunderbolt 2, 4x USB 3.0, HDMI 1.4a, SDXC, Gigabit Ethernet, Audio in, 3.5mm headphone jack, IR receiver \
+**OS:** Ubuntu Server 26.04 LTS
 
 
 ### Overview
