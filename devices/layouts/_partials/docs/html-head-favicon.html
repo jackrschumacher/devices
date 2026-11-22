@@ -1,0 +1,9 @@
+<!--
+  Overrides the theme's docs/html-head-favicon.html, which hardcodes the
+  theme's own favicon.svg / favicon.png. hugo-book removed the BookFavicon
+  param, so the icons must be pointed at our files in static/ here.
+-->
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+<link rel="icon" href="{{ "favicon-32x32.png" | relURL }}" type="image/png" sizes="32x32">
+<link rel="icon" href="{{ "favicon-16x16.png" | relURL }}" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
