@@ -1,6 +1,6 @@
 ---
 title: "Mac Mini (2014)"
-tags: ""
+tags: "Desktop"
 bookHidden: false
 ---
 
